@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+h2 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+p {
+    text-align: justify;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+li {
+    display: inline;
+    margin: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+.brand-info {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.brand-info:last-child {
+    border-bottom: none;
+}
+.brand-info img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brand-info h2 {
+    margin-top: 0;
+}
+button {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
